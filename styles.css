@@ -8,31 +8,60 @@ header {
   background: #003366;
   color: white;
   padding: 1rem;
+  text-align: center;
 }
-header h1 {
-  margin: 0;
+.logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+  position: absolute;
+  top: 10px;
+  left: 20px;
+  background: #fff;
+  color: #003366;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+nav {
+  margin-top: 1rem;
 }
 nav a {
   color: white;
   text-decoration: none;
-  margin-right: 15px;
+  margin: 0 10px;
   font-weight: bold;
 }
 nav a:hover {
   text-decoration: underline;
 }
 main {
-  padding: 1rem 2rem;
+  padding: 2rem;
 }
 section {
   margin-bottom: 2rem;
+}
+.buttons {
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+.btn {
+  padding: 0.75rem 1.5rem;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+}
+.whatsapp {
+  background-color: #25d366;
+}
+.email {
+  background-color: #0072c6;
+}
+.sms {
+  background-color: #f39c12;
 }
 footer {
   background: #222;
   color: #ccc;
   text-align: center;
   padding: 1rem;
-  position: fixed;
-  width: 100%;
-  bottom: 0;
 }
